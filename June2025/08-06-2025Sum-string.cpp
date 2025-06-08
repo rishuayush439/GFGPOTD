@@ -1,3 +1,13 @@
+/*
+Sum-string
+Given a string s consisting of digits, determine whether it can be classified as a sum-string.
+A sum-string is a string that can be split into two or more non-empty substrings such that:
+The rightmost substring is equal to the sum of the two substrings immediately before it (interpreted as integers).
+This condition must apply recursively to the substrings before it.
+The rightmost substring (and any number in the sum) must not contain leading zeroes, unless the number is exactly '0'.
+
+*/
+
 class Solution
 {
 public:
